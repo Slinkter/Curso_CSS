@@ -1,0 +1,12 @@
+/*Variables*/
+:root{
+    --color : red;
+}
+
+
+
+body{
+    background:var(--color);
+    color: white;
+}
+
