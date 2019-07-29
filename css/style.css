@@ -4,9 +4,15 @@
 }
 
 
+.title{
+background: yellow;
+text-align: center;
+font-weight: bold;
+}
 
-body{
-    background:var(--color);
-    color: white;
+.description{
+background: lime;
+text-align: center;
+font-weight: bold;
 }
 
