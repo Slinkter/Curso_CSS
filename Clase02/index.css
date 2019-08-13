@@ -1,11 +1,13 @@
-#title{
+.title{
+    /*
     background: yellow;
-    color:red;
+    color:red;*/
 }
 
 .parrafo{
-    background: green;
-    color: white;
+    /*
+    background: rgb(61, 218, 61);
+    color: white;*/
 }
 
 .bold{
@@ -19,6 +21,13 @@
 ._p{
     color :red;
 }
+
+
+.t1,.p1{
+    color :red;
+}
+
+
 
 /*
 Notas:
