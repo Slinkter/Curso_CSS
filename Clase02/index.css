@@ -8,10 +8,20 @@
     color: white;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .center {
     text-align: center;
 }
 
-.bold{
-    font-weight: bold;
+._p{
+    color :red;
 }
+
+/*
+Notas:
+la clases no pueden iniciar con numero
+
+*/
