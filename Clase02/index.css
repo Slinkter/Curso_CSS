@@ -1,33 +1,10 @@
-.title{
-    /*
-    background: yellow;
-    color:red;*/
+body{
+    font-size: 2em;
 }
 
-.parrafo{
-    /*
-    background: rgb(61, 218, 61);
-    color: white;*/
+.list-item{
+    color: red;
 }
-
-.bold{
-    font-weight: bold;
-}
-
-.center {
-    text-align: center;
-}
-
-._p{
-    color :red;
-}
-
-
-.t1,.p1{
-    color :red;
-}
-
-
 
 /*
 Notas:
@@ -37,7 +14,5 @@ Notas:
 *Selector universal (*) no es buena idea usar.
 
 el (.parrafo) son atributos  y el (P) es TAG
-
-
 
 */
