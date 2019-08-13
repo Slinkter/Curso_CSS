@@ -1,0 +1,17 @@
+.title{
+    background: yellow;
+    color:red;
+}
+
+.parrafo{
+    background: green;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
