@@ -22,7 +22,13 @@
 
 /*
 Notas:
-la clases no pueden iniciar con numero
-los id solo deben funcionar en JavaScript(son unicos) --> se identifica con un hash (#)
-las clases se puede reutilizar --se identifican con un punto (._css)
+*la clases no pueden iniciar con numero
+*los id solo deben funcionar en JavaScript(son unicos) --> se identifica con un hash (#)
+*las clases se puede reutilizar --se identifican con un punto (._css)
+*Selector universal (*) no es buena idea usar.
+
+el (.parrafo) son atributos  y el (P) es TAG
+
+
+
 */
