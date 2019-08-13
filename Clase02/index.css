@@ -2,9 +2,19 @@ body{
     font-size: 2em;
 }
 
-.list-item{
+ul span{
+    /*Aplica al nieto*/
     color: red;
 }
+.list{
+    color: red;
+}
+
+.lista.tag{
+    color: blue;
+}
+
+
 
 /*
 Notas:
