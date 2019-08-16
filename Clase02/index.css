@@ -1,14 +1,39 @@
+:root{
+    --color-blue : blue;
+    --color-red : red;
+}
+
 body{
     font-size: 2em;
 }
 
-li>ul {
-    display: none;
+
+.title-1 {
+    color:var(--color-red);
 }
 
-li:hover ul {
-    display: block;
+.title-2{
+    color:var(--color-blue);
 }
+
+.subtitle{
+    font-size: .5em;
+    margin-top: -2em;
+}
+
+.title-1 + .subtitle{
+    color:var(--color-red);
+
+}
+.title-2 + .subtitle{
+    color:var(--color-blue);
+    
+}
+
+
+
+
+
 
 /*
 Notas:
