@@ -7,44 +7,23 @@ body{
     font-size: 2em;
 }
 
+[type="email"]{
 
-.title-1 {
-    color:var(--color-red);
-}
-
-.title-2{
-    color:var(--color-blue);
-}
-
-.subtitle{
-    font-size: .5em;
-    margin-top: -2em;
-}
-
-.title-1 + .subtitle{
-    color:var(--color-red);
-
-}
-.title-2 + .subtitle{
-    color:var(--color-blue);
-    
-}
-
-.enabled {
-    display: none;
-}
-
-.disabled{
-    display: block;
+    border: 1px solid blue;
 }
 
 
-.check:checked + .enabled{
-    display: block;
+[type="submit"]{
+
+    border: none;
+    color: white;
+    background: red;
+
 }
 
-.check:checked ~ .disabled{
-    display: none;
+[required]{
+    border: 2px solid red;
+    margin: 0.5em;
 }
 
 
