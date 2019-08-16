@@ -30,9 +30,22 @@ body{
     
 }
 
+.enabled {
+    display: none;
+}
+
+.disabled{
+    display: block;
+}
 
 
+.check:checked + .enabled{
+    display: block;
+}
 
+.check:checked ~ .disabled{
+    display: none;
+}
 
 
 /*
