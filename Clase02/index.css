@@ -7,25 +7,18 @@ body{
     font-size: 2em;
 }
 
-a{
-    background: url() no-repeat center right / 2rem;
-    padding: 2.2rem;
+[class*="button-"]{
+    display: inline-block;
+    margin: 1em;
+    padding:  1em 2em;
+    color: white;
 }
 
-/*empieza ^ */
-
-[href^="/"],[href^="https://ed.team"]{
-    color:red;
-    background: none;
+.button-cta{
+    background: orange;
 }
-
-
-/*termina $ */
-
-[href$=".pdf"]{
-    color : green;
-    background: url() no-repeat center right /2rem;
-    padding-right: 2rem;
+.button-alert{
+    background: red;
 }
 
 
