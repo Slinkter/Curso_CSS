@@ -12,10 +12,22 @@ a{
     padding: 2.2rem;
 }
 
+/*empieza ^ */
+
 [href^="/"],[href^="https://ed.team"]{
     color:red;
     background: none;
 }
+
+
+/*termina $ */
+
+[href$=".pdf"]{
+    color : green;
+    background: url() no-repeat center right /2rem;
+    padding-right: 2rem;
+}
+
 
 /*
 Notas:
