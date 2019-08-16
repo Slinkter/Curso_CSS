@@ -2,19 +2,13 @@ body{
     font-size: 2em;
 }
 
-ul span{
-    /*Aplica al nieto*/
-    color: red;
-}
-.list{
-    color: red;
+li>ul {
+    display: none;
 }
 
-.lista.tag{
-    color: blue;
+li:hover ul {
+    display: block;
 }
-
-
 
 /*
 Notas:
