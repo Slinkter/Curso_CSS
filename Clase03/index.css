@@ -1,0 +1,24 @@
+body {
+    font-size: 3em;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.normal {
+    font-size: 1em;
+}
+
+.small {
+    font-size: .75em;
+}
+
+
+.post-description {
+    color: red;
+}
+
+.producto-description {
+    color: black;
+}
