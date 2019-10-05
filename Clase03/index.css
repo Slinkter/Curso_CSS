@@ -22,3 +22,18 @@ body {
 .producto-description {
     color: black;
 }
+
+span{
+    font-size: 0.5em;
+}
+
+p{
+    color: green;
+}
+a{
+    color: inherit;
+}
+
+ul{
+    color: aqua;
+}
