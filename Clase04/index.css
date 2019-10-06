@@ -1,0 +1,17 @@
+body {
+
+    font-size: 2.5em;
+}
+
+h1 {
+    background: yellow;
+    display: inline;
+}
+p{
+    display: inline;
+    background: red;
+}
+span {
+    background: yellow;
+    display: block;
+}
