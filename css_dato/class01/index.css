@@ -11,5 +11,26 @@ div {
     background: yellow;
     border: red solid 10px;
     display: block;
-    overflow: auto;
+    overflow: hidden;
+    position: relative;
+    transition: all 1.2s;
+
+}
+
+img {
+
+    position: relative;
+    top: 160px;
+    left: 140px;
+}
+
+
+
+div:hover>img {
+
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+
 }
