@@ -2,29 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-}
-
-.texto{
-    color: yellow;
 
 }
 
-.texto::first-letter{
-    color: blue;
-    font-size: 50px;
-}
-.texto::first-line{
 
-    font-size: 50px;
-}
-.texto::before{
-    content: "Bienvenido";
-    color: black;
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: #11ddd3;
+    /**/
+
+    transition: background 1s , height 2s , width 2s;
+
 }
 
-.texto::after{
-    content: " al evento ";
-    color: red;
-}
+.caja1:hover {
 
+    background: #be11dd;
+    height: 50px;
+    width: 50px;
+}
