@@ -1,0 +1,27 @@
+*{
+    color: red;
+}
+
+h1{
+    color: green;
+}
+
+.changecolorh2{
+    color: yellow;
+}
+
+#changecolorh3{
+    color: purple;
+}
+
+[soyunAtributo="changecolorh4"]{
+    color: blue;
+}
+
+.changecolorh5  {
+    color: pink;
+}
+.changecolorh5:hover{
+    color: blue;
+}
+
