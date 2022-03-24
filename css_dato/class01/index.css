@@ -4,10 +4,12 @@
 }
 
 div {
-    margin: 10px;
-    height: 150px;
-    width: 150px;
+    margin: auto;
+    margin-top: 50px;
+    height: 350px;
+    width: 350px;
     background: yellow;
     border: red solid 10px;
     display: block;
+    overflow: auto;
 }
