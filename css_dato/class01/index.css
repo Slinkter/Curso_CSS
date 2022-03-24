@@ -1,30 +1,30 @@
 * {
-    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.texto{
+    color: yellow;
 
 }
 
-.conf {
+.texto::first-letter{
+    color: blue;
+    font-size: 50px;
+}
+.texto::first-line{
 
-    margin: auto;
-    margin-top: 50px;
-    padding: 20px;
-    background: gray;
-    border: red solid 10px;
-    display: block;
-    overflow: hidden;
-    position: relative;
-    transition: all 1.2s;
-    width: 50%;
-
-
+    font-size: 50px;
+}
+.texto::before{
+    content: "Bienvenido";
+    color: black;
 }
 
-
-
-img {
-    float: left;
-
-    width: 350px;
-    margin: 10px;
-
+.texto::after{
+    content: " al evento ";
+    color: red;
 }
+
