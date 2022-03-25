@@ -1,0 +1,25 @@
+.nav-container {
+    background-color: rgb(77, 104, 108);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.nav-container__li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+}
+
+
+
+li:hover {
+    color: yellow;
+}
+
+li::after {
+    content: " | ";
+}
