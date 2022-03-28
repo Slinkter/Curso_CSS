@@ -1,34 +1,23 @@
-:root{
-    --color-blue : blue;
-    --color-red : red;
+:root {
+    --color-blue: blue;
+    --color-red: red;
 }
 
-body{
+body {
     font-size: 2em;
 }
 
-[class*="button-"]{
+[class*="button-"] {
     display: inline-block;
-    margin: 1em;
-    padding:  1em 2em;
+    margin: 10px;
+    padding: 50px;
     color: white;
 }
 
-.button-cta{
+.button-cta {
     background: orange;
 }
-.button-alert{
+
+.button-alert {
     background: red;
 }
-
-
-/*
-Notas:
-*la clases no pueden iniciar con numero
-*los id solo deben funcionar en JavaScript(son unicos) --> se identifica con un hash (#)
-*las clases se puede reutilizar --se identifican con un punto (._css)
-*Selector universal (*) no es buena idea usar.
-
-el (.parrafo) son atributos  y el (P) es TAG
-
-*/
