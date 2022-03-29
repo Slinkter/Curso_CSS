@@ -19,8 +19,11 @@
 
 .orange {
   background: orange;
+  align-self: flex-start;
 }
 
 .green {
   background: green;
+  align-self: flex-end;
+
 }

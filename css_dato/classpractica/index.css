@@ -1,27 +1,43 @@
-*{
-    color: red;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-    color: green;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background: grey;
+    margin: 50px 30px;
+
 }
 
-.changecolorh2{
-    color: yellow;
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+
 }
 
-#changecolorh3{
-    color: purple;
+.form__input {
+    width: 100%;
+    padding: 6px;
+    margin: 6px;
 }
 
-[soyunAtributo="changecolorh4"]{
-    color: blue;
+.form textarea {
+    min-height: 140px;
 }
 
-.changecolorh5  {
-    color: pink;
-}
-.changecolorh5:hover{
-    color: blue;
+.form-img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
 }
 
+.form-img img {
+    width: 100%;
+}
