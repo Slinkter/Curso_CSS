@@ -5,3 +5,16 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.div-responsive {
+  background: #c95;
+}
+
+
+/* para aplicar el rojo el minimo es 400  */
+@media screen and (min-width:400px) and (max-width:600px) {
+
+  .div-responsive {
+    background: red;
+  }
+
+}
