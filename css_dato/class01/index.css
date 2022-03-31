@@ -15,15 +15,29 @@
   background: red;
   height: 60px;
   width: 60px;
-  left: 0;
   position: relative;
-  transition-property: left background;
-  transition-duration: 1s, 0.6s;
-  /*  transition-delay: 0.2s;
- */
+  animation-name: ani_desplazarse;
+  animation-duration: 1.5s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+
+  
 }
 
-.container:hover  > .caja{
-  background: lightblue;
-  left: 80%;
+@keyframes ani_desplazarse {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 60%;
+    background: rgb(81, 255, 0);
+  }
+
+  100% {
+    left: 80%;
+    background: rgb(255, 0, 183);
+  }
 }
