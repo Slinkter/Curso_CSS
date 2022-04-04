@@ -1,0 +1,172 @@
+body {
+}
+
+#titulo {
+  color: aqua;
+}
+
+p.especial {
+  color: brown;
+}
+
+p.texto {
+  color: steelblue;
+}
+
+div p {
+  color: red;
+}
+
+div h2,
+div h3 {
+  color: yellow;
+}
+
+* {
+  font-size: 44px;
+  color: black;
+}
+
+/*  soy un comentario */
+
+.color {
+  /*   border: 5px black dotted; */
+  border-style: dashed;
+  border-color: rosybrown;
+  border-width: 1cm;
+  border-radius: 25px;
+}
+
+#fondo {
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  height: 200px;
+
+  opacity: 0.9;
+  background-image: url("https://recetastips.com/wp-content/uploads/2020/05/helado-de-chocolate-6-1.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.margen {
+  height: 200px;
+  width: 150px;
+  /*   overflow: visible;
+  overflow: hidden; */
+  overflow: scroll;
+
+  margin: 120px;
+  padding: 10px;
+  border: solid 1px black;
+  background-color: aqua;
+  outline: 1px solid red;
+}
+
+.texto {
+  text-align: left;
+  text-align: right;
+  text-align: center;
+  text-align: justify; /* aumenta espacion entre palabras */
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: overline;
+  text-shadow: 3px 5px 5px burlywood; /*  eje x ,eje y,  sombra , color*/
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+a:link {
+  color: blueviolet;
+}
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: gray;
+}
+
+ul {
+  background-color: tomato;
+  list-style-type: none;
+
+  padding: 0;
+  /*   list-style-position: inside; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {
+  background-color: tomato;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.291);
+}
+
+tr:hover {
+  background-color: rgba(135, 86, 86, 0.971);
+}
+
+span {
+  /*  display: inline;
+    visibility: hidden; */
+
+  max-width: 900px;
+  display: block;
+  background-color: tomato;
+}
+
+#position {
+  position: sticky;
+  left: 200px;
+  top: 15px;
+}
+
+.container {
+  height: 200px;
+  margin: 50px;
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.right {
+  float: right;
+}
+
+.column {
+
+  margin: 0;
+  padding: 10px 0;
+  width: 33.3%;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 200px;
+    background-color: red;
+    width: 200px;
+    
+}
