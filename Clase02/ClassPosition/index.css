@@ -5,7 +5,11 @@
 }
 
 .parent {
-  border: 3px black dotted;
+  border: 3px black solid;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -16,24 +20,27 @@
 }
 
 #one {
+  background-color: yellow;
 }
 
 #two {
   background-color: green;
-  position: static;
-  position: absolute;
-  margin-top: 50px;
+
+  position: fixed;
+  margin-top: 150px;
 }
 
 #three {
+  background-color: purple;
 }
 
 #four {
   margin-bottom: 50px;
+  background-color: blue;
 }
 
 main {
-  margin: auto;
+  background-color: yellow;
 }
 
 main div {
