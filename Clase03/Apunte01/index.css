@@ -1,42 +1,42 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
-    width: 100%;
-    height: 150px;
-    min-width: 150px;
+  width: 100%;
+  height: 150px;
+  min-width: 150px;
 }
 
 .c1 {
-    background-color: #FA34D9;
+  background-color: #fa34d9;
 }
 
 .c2 {
-    background-color: #792FE0;
+  background-color: #792fe0;
 }
 
 .c3 {
-    background-color: #406DF5;
+  background-color: #406df5;
 }
 
 .c4 {
-    background-color: #F28705;
+  background-color: #f28705;
 }
 
 .c5 {
-    background-color: #34FA83;
+  background-color: #34fa83;
 }
 
 /* se aplica apartir de 600 */
