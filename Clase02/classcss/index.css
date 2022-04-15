@@ -1,7 +1,3 @@
-p {
-    color: blue;
-    font-size: 80px;
-}
 
 /* ClassName */
 .ppp {
@@ -9,7 +5,11 @@ p {
 }
 
 /* ID */
-
 #qqq {
     color: green;
+}
+/*  */
+p {
+    color: blue;
+    font-size: 80px;
 }

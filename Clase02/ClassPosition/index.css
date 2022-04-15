@@ -25,8 +25,7 @@
 
 #two {
   background-color: green;
-
-  position: fixed;
+  position: relative;
   margin-top: 150px;
 }
 
