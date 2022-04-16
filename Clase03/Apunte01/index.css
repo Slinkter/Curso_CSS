@@ -10,7 +10,8 @@ html {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 .box {
