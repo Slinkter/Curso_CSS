@@ -1,56 +1,74 @@
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
-.container {
+.cards {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.cards .card {
+  background-color: rgba(0, 144, 255);
+  color: white;
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease;
+
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px 0 10px rgba(0, 0, 0, 0.2),
+    -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards .card a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cards .card a:hover {
+  color: lightyellow;
+}
+
+.cards .card .header {
+  flex: 1;
+}
+
+.cards .card:hover {
+  background-color: gray;
+  margin-right: 40px;
+  transform: rotate(10deg) translateY(-15px);
+}
+
+.cards .card .header .date {
+  padding: 10px 0;
+}
+
+.cards .card .header .title {
+  font-size: 38px;
+}
+
+.cards .card[class*="element"] {
+  margin-left: -100px;
+}
+
+.element-1:hover {
+  margin-left: 10px;
+}
+
+.cards .card .footer .auto a {
+  display: flex;
   align-items: center;
-  height: 200px;
-  gap: 20px;
-
-  border: 3px solid black;
-  margin: 10px;
-  padding: 3px;
+  gap: 15px;
 }
 
-.item {
-  width: 50px;
-  height: 50px;
-  border: 2px dotted black;
-  background-color: darksalmon;
-  flex-grow: 1;
-}
-
-.c1 {
-  background-color: aqua;
-  align-self: center;
-}
-
-.c2 {
-  background-color: bisque;
-}
-
-.c3 {
-  background-color: tomato;
-  align-self: center;
-}
-
-.parent{
-    border: 3px solid black;
-    display: flex;
-    height: 100vh;
-    background-color: blueviolet;
-
-}
-
-.child{
-    width: 100px;
-    height: 100px;
-    background-color: tomato;
-    margin: auto;
+.cards .card .footer img {
+  width: 48px;
+  border-radius: 50%;
 }
