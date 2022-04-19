@@ -4,71 +4,131 @@
   margin: 0;
 }
 
-.cards {
-  display: flex;
-  width: 100%;
-  padding: 50px;
+body {
+  background-color: rgba(0, 0, 139, 0.123);
+  height: 100vh;
 }
 
-.cards .card {
-  background-color: rgba(0, 144, 255);
-  color: white;
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.container .table {
+  background-color: aliceblue;
   width: 300px;
-  height: 350px;
-  border-radius: 15px;
+  height: 442px;
   padding: 30px;
   position: relative;
   display: flex;
   flex-direction: column;
-  transition: all 0.4s ease;
-
-  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px 0 10px rgba(0, 0, 0, 0.2),
-    -5px 0 10px rgba(0, 0, 0, 0.1);
+  gap: 10px;
 }
 
-.cards .card a {
-  color: yellow;
-  text-decoration: none;
+.container .table:first-child {
+  border-radius: 10px 0 0 10px;
+  border: 1px solid black;
+}
+
+.container .table:last-child {
+  border-radius: 0 10px 10px 0;
+  border: 1px solid black;
+}
+
+.container .table.recommended {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  height: 500px;
+  border-radius: 10px;
+  padding: 50px 30px 60px 30px;
+}
+
+.container .table .title {
   font-weight: bold;
 }
 
-.cards .card a:hover {
-  color: lightyellow;
+.container .table .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
 }
 
-.cards .card .header {
+.container .table .price .currency {
+  font-size: 25px;
+}
+.container .table .price .number {
+  font-size: 60px;
+  font-weight: bold;
+}
+.container .table .price .features {
   flex: 1;
+  text-align: left;
+  height: 240px;
+  padding: 20px 0;
 }
 
-.cards .card:hover {
-  background-color: gray;
-  margin-right: 40px;
-  transform: rotate(10deg) translateY(-15px);
+.container .table .features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.cards .card .header .date {
-  padding: 10px 0;
-}
-
-.cards .card .header .title {
-  font-size: 38px;
-}
-
-.cards .card[class*="element"] {
-  margin-left: -100px;
-}
-
-.element-1:hover {
-  margin-left: 10px;
-}
-
-.cards .card .footer .auto a {
+.container .table .features ul li {
   display: flex;
   align-items: center;
-  gap: 15px;
+  justify-content: center;
+  gap: 5px;
 }
 
-.cards .card .footer img {
-  width: 48px;
-  border-radius: 50%;
+.container .table .features ul li span.check_circle {
+  color: rgb(39, 196, 0, 0.6);
+}
+
+.container .table .actions .btn {
+  display: block;
+  text-align: center;
+  border: 1px solid #999;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 20px 0;
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.container .table .actions .btn:hover{
+  background-color: blue;
+  color: white;
 }
