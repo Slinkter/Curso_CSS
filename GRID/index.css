@@ -63,8 +63,6 @@
     background: aqua;
     color: black;
     border-radius: 3px;
-    height: 90px;
-    width: 50px;
 }
 
 .grid > div:hover {
@@ -72,10 +70,21 @@
 
 .element1 {
     /* grid-area: header; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .element2 {
     /*  grid-area: main; */
+    justify-self: end;
+    justify-self: stretch;
+    align-self: start;
+    align-self: end;
+    align-self: center;
+    align-self: stretch;
+    place-self: center center;
 }
 
 .element3 {
