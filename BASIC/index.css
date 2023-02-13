@@ -1,7 +1,11 @@
+* {
+    font-size: 34px;
+    color: black;
+}
+
 body {
     box-sizing: border-box;
-    transition: 0.5s all ease-in-out;
-    background-color: gray;
+    transition: 1s all ease-in-out;
 }
 
 .container {
@@ -20,9 +24,9 @@ body {
 .right {
     float: right;
 }
-
+/*  <h1 id="titulo">Hola mundo</h1> */
 #titulo {
-    color: aqua;
+    color: rgb(187, 39, 90);
 }
 
 p.especial {
@@ -41,29 +45,28 @@ div h2,
 div h3 {
     color: yellow;
 }
-
-* {
-    font-size: 44px;
-    color: black;
+div h3 .test {
+    color: green;
 }
 
 /*  soy un comentario */
 
 .color {
-    /*   border: 5px black dotted; */
-    border-style: dashed;
+    border: 5px black dotted;
+    padding: 10px;
+    border-style: dotted;
     border-color: rosybrown;
-    border-width: 1cm;
+    border-width: 5px;
     border-radius: 25px;
 }
 
 #fondo {
     text-align: center;
-    padding: 30px;
-    margin: 30px;
-    height: 200px;
-
-    opacity: 0.9;
+    color: rgb(255, 254, 254);
+    text-shadow: 3px 5px 5px rgb(255, 0, 153);
+    padding: 1px;
+    margin: 1px;
+    opacity: 0.95;
     background-image: url("https://recetastips.com/wp-content/uploads/2020/05/helado-de-chocolate-6-1.jpg");
     background-size: cover;
     background-repeat: repeat-y;
@@ -73,16 +76,17 @@ div h3 {
 
 .margen {
     height: 200px;
-    width: 150px;
-    /*   overflow: visible;
-  overflow: hidden; */
-    overflow: scroll;
-
+    width: 250px;
     margin: 120px;
     padding: 10px;
-    border: solid 1px black;
-    background-color: aqua;
+
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+
+    border: solid 1px rgb(251, 251, 9);
     outline: 1px solid red;
+    background-color: rgb(88, 16, 147);
 }
 
 .texto {
@@ -90,24 +94,25 @@ div h3 {
     text-align: right;
     text-align: center;
     text-align: justify; /* aumenta espacion entre palabras */
-    text-decoration: none;
     text-decoration: underline;
     text-decoration: line-through;
     text-decoration: overline;
-    text-shadow: 3px 5px 5px burlywood; /*  eje x ,eje y,  sombra , color*/
+    text-decoration: none;
+    text-shadow: 3px 5px 5px rgb(255, 0, 153); /*  eje x ,eje y,  sombra , color*/
     font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
+    font-weight: regular;
 }
 
 a:link {
     color: blueviolet;
+    text-decoration: none;
 }
 a:visited {
     color: green;
 }
 
 a:hover {
-    color: yellow;
+    color: rgb(0, 191, 255);
 }
 
 a:active {
@@ -133,7 +138,7 @@ td {
 }
 
 th {
-    background-color: tomato;
+    background-color: rgb(255, 71, 141);
     text-align: left;
 }
 
@@ -146,9 +151,6 @@ tr:hover {
 }
 
 span {
-    /*  display: inline;
-    visibility: hidden; */
-
     max-width: 900px;
     display: block;
     background-color: tomato;
